@@ -7,7 +7,7 @@ let spinnerEl = document.getElementById("spinner");
 function createAndAppendResults(result) {
     // creating Result Item
     let resultItemEl = document.createElement("div");
-    resultItemEl.classList.add("result-item");
+    resultItemEl.classList.add("result-item","d-flex", "flex-column");
     searchResultsEl.appendChild(resultItemEl);
 
     // creating title element
